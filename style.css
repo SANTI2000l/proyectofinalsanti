@@ -1,0 +1,109 @@
+h2 {
+    text-align: left;
+    color: #ffcc00; /* Amarillo brillante */
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffeb3b, #ff9800); /* Fondo amarillo con naranja */
+    color: #333;
+}
+
+.filtro {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    background-color: #ffc107; /* Amarillo cálido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 1rem;
+    color: #d84315; /* Naranja oscuro */
+}
+
+#criterio {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ffcc80; /* Naranja claro */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #d32f2f; /* Rojo brillante */
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c62828; /* Rojo oscuro */
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    padding: 15px;
+    background-color: #fff3e0; /* Beige cálido */
+    border: 1px solid #ffcc80; /* Naranja claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ff5722; /* Naranja vibrante */
+}
+
+.producto button {
+    background-color: #d84315; /* Naranja oscuro */
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #bf360c; /* Naranja más oscuro */
+}
+
+.carrito {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffe082; /* Amarillo pálido */
+    border: 1px solid #ffa000; /* Naranja intenso */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carrito p {
+    font-size: 1rem;
+    color: #e65100; /* Naranja fuerte */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final - Lista de Productos</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Lista de Productos</h2>
+    
+    <div class="filtro">
+        <label for="criterio">Filtrar:</label>
+        <input type="text" id="criterio" placeholder="Buscar por nombre o código">
+        <button onclick="cargar()">Aceptar</button>
+        <button onclick="limpiar()">Cancelar</button>
+    </div>
+    
+    <div id="resultado" class="productos">
+        <!-- Aquí se cargarán los productos dinámicamente -->
+        <div class="producto">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto.</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto.</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </div>
+    
+    <div id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <p>El carrito está vacío.</p>
+    </div>
+</body>
+</html>
